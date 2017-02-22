@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataStructure name="orch.rule">
+  <container>true</container>
+  <jsonMap type="jmap">
+    <exclude>1</exclude>
+  </jsonMap>
+  <label>rule</label>
+  <metaVersion>25</metaVersion>
+  <childList>
+    <child name="ruleId" type="dstruct">
+      <datatype>true</datatype>
+      <element>dtype_com.conceptwave.system.String</element>
+      <label>ruleId</label>
+    </child>
+    <child name="matchScript" type="dstruct">
+      <datatype>true</datatype>
+      <element>dtype_com.conceptwave.system.String</element>
+      <label>matchScript</label>
+    </child>
+    <child name="scope" type="dstruct">
+      <datatype>true</datatype>
+      <element>dtype_com.conceptwave.system.String</element>
+      <label>scope</label>
+    </child>
+    <child name="resultSubOrder" type="dstruct">
+      <datatype>true</datatype>
+      <element>dtype_com.conceptwave.system.String</element>
+      <label>resultSubOrder</label>
+    </child>
+  </childList>
+</dataStructure>

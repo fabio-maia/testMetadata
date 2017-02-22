@@ -1,0 +1,30 @@
+{"orderDetail": {
+	"customer": {"custId":"CUS-001","custName":"XYZ","custType":"Residential","action":"update"},
+    "billingAccountList": {
+        "billingAccount":[
+            {"accountId":"BAN-001","custId":"CUS-001","action":"create","accountType":"Billing","accountName":"abc","accountStatus":"accountStatus"},
+            {"accountId":"BAN-002","custId":"CUS-001","action":"create","accountType":"Billing","accountName":"XYZ","accountStatus":"Active"}
+		]
+	},
+    "paymentList": {
+	    "payment":[
+            {"paymentProfileId":"Pay-001","customerId":"CUS-001","accountId":"BAN-001","shippingId":"SHIP-001","paymentMethod":"VISA","cardType":"450000888200553","cardHolderName":"Jhon Lee","cardExpiryDate":"31-10-2020","cardSecurityCode":"456","amount":"125"},
+            {"paymentProfileId":"Pay-002","customerId":"CUS-001","accountId":"BAN-002","shippingId":"SHIP-001","paymentMethod":"VISA","cardType":"450000888200553","cardHolderName":"Jhon Lee","cardExpiryDate":"31-10-2020","cardSecurityCode":"456","amount":"125"}
+		]
+	},
+    "contractList": {
+		"contract":[
+            {"contractId":"001","contractType":"AAA","paymentProfileId":"Pay-001"},
+            {"contractId":"002","contractType":"BBB","paymentProfileId":"Pay-002"},
+            {"contractId":"003","contractType":"AAA","paymentProfileId":"Pay-002"}
+		]
+	},
+    "refilList": {
+		"refil":[
+          {"refilId":"001","contractId":"001"},
+          {"refilId":"002","contractId":"003"}
+		]
+          
+    }
+  }
+}

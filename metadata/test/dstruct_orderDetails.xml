@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataStructure name="test.orderDetails">
+  <container>true</container>
+  <jsonMap type="jmap">
+    <exclude>1</exclude>
+  </jsonMap>
+  <label>orderDetails</label>
+  <metaVersion>25</metaVersion>
+  <childList>
+    <child name="customer" type="dstruct">
+      <array>true</array>
+      <element>dstruct_test.customer</element>
+      <label>customer</label>
+      <maxInstance>-1</maxInstance>
+    </child>
+    <child name="billingAccountList" type="dstruct">
+      <array>true</array>
+      <element>dstruct_test.billingAccountList</element>
+      <label>billingAccountList</label>
+      <maxInstance>-1</maxInstance>
+    </child>
+    <child name="hardGoodList" type="dstruct">
+      <element>dstruct_test.hardGoodList</element>
+      <label>hardGoodList</label>
+    </child>
+    <child name="payment" type="dstruct">
+      <element>dstruct_test.payment</element>
+      <label>payment</label>
+    </child>
+    <child name="servicesList" type="dstruct">
+      <element>dstruct_test.servicesList</element>
+      <label>servicesList</label>
+    </child>
+  </childList>
+</dataStructure>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataStructure name="test.servicesList">
+  <container>true</container>
+  <jsonMap type="jmap">
+    <exclude>1</exclude>
+  </jsonMap>
+  <label>servicesList</label>
+  <metaVersion>25</metaVersion>
+  <childList>
+    <child name="service" type="dstruct">
+      <element>dstruct_test.service</element>
+      <label>service</label>
+    </child>
+  </childList>
+</dataStructure>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataStructure name="test.hardGoodList">
+  <container>true</container>
+  <jsonMap type="jmap">
+    <exclude>1</exclude>
+  </jsonMap>
+  <label>hardGoodList</label>
+  <metaVersion>25</metaVersion>
+  <childList>
+    <child name="hardGood" type="dstruct">
+      <element>dstruct_test.hardGood</element>
+      <label>hardGood</label>
+    </child>
+  </childList>
+</dataStructure>

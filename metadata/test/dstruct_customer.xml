@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataStructure name="test.customer">
+  <container>true</container>
+  <jsonMap type="jmap">
+    <exclude>1</exclude>
+  </jsonMap>
+  <label>customer</label>
+  <metaVersion>25</metaVersion>
+  <childList>
+    <child name="custId" type="dstruct">
+      <datatype>true</datatype>
+      <element>dtype_com.conceptwave.system.String</element>
+      <label>custId</label>
+    </child>
+    <child name="custName" type="dstruct">
+      <datatype>true</datatype>
+      <element>dtype_com.conceptwave.system.String</element>
+      <label>custName</label>
+    </child>
+    <child name="custType" type="dstruct">
+      <datatype>true</datatype>
+      <element>dtype_com.conceptwave.system.String</element>
+      <label>custType</label>
+    </child>
+    <child name="action" type="dstruct">
+      <datatype>true</datatype>
+      <element>dtype_com.conceptwave.system.String</element>
+      <label>action</label>
+    </child>
+  </childList>
+</dataStructure>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project>
+  <DefaultDB>TMO @ LOCAL</DefaultDB>
+  <applicationString>TMobile</applicationString>
+  <applicationVersionString>1</applicationVersionString>
+  <breakpointMap>
+    <breakpoint key="cws_ecm.debugScript">0</breakpoint>
+    <breakpoint key="cws_ecm.testing">0</breakpoint>
+    <breakpoint key="objectVersioning.debugScript">0</breakpoint>
+    <breakpoint key="test.testPopulateRuleSetScript.tPopulateRuleSetScript">0</breakpoint>
+  </breakpointMap>
+  <databasesMap>
+    <databases key="TMO @ LOCAL" type=".configdb">
+      <dbname>TMO @ LOCAL</dbname>
+      <driver type=".dbdriver">
+        <attributes>localhost;1521;orcl;false</attributes>
+        <driverType>Oracle thin</driverType>
+      </driver>
+      <password>083B215B12D40F55</password>
+      <user>tmo_epc</user>
+    </databases>
+  </databasesMap>
+  <excludedBuildWar>.bak</excludedBuildWar>
+  <excludedResource>.svn</excludedResource>
+  <joinCluster>true</joinCluster>
+  <nodeString>TMobile</nodeString>
+  <skin>Enterprise</skin>
+</project>

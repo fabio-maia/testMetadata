@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<script name="test.submitOrder">
+  <label>submitOrder</label>
+  <metaVersion>25</metaVersion>
+  <script><![CDATA[
+    /* Testing purpose */
+    var fileName = Global.getResource("submitOrder.json");
+
+    try {
+        if (fileName != null){
+           var data = JSON.parse(fileName);
+           var orderDetail = data.orderDetail; // Order Details
+           var customer = orderDetail.customer; // Customer
+           var billingAccountArr = orderDetail.billingAccountList.billingAccount; // Billing Account List
+           var paymentArr = orderDetail.paymentList.payment; // Payment List
+           var contractArr = orderDetail.contractList.contract; // Contract List
+           var refilArr = orderDetail.refilList.refil; // Refil List
+
+           /* TO DO */
+
+        }
+    }
+    catch (e){
+       return false;
+        }
+  ]]></script>
+</script>

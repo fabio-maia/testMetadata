@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<script name="orch.populateRuleSet2">
+  <label>populateRuleSet2</label>
+  <metaVersion>25</metaVersion>
+  <script><![CDATA[
+    //var fileName = Global.getConfigVariable("resourceFileName");
+    //var subOrderStr = Global.getResource(fileName);
+    var subOrderStr = Global.getResource('subOrderDecompositionRule2.json');
+    var ruleSet = new DataStructure("orch:ruleSet");
+
+    try {
+        if (subOrderStr != null){
+
+           var subOrder = JSON.parse(subOrderStr);
+
+           ruleSet.ruleList[0].ruleId = subOrder[0].Rule_Customer_Create.name;
+           ruleSet.ruleList[0].matchScript  = subOrder[0].Rule_Customer_Create.matchScript;
+           ruleSet.ruleList[0].scope = subOrder[0].Rule_Customer_Create.scope;
+           ruleSet.ruleList[0].resultSubOrder =  subOrder[0].Rule_Customer_Create.subOrder;
+
+           ruleSet.ruleList[1].ruleId = subOrder[0].Rule_Customer_Update.name;
+           ruleSet.ruleList[1].matchScript  = subOrder[0].Rule_Customer_Update.matchScript;
+           ruleSet.ruleList[1].scope = subOrder[0].Rule_Customer_Update.scope;
+           ruleSet.ruleList[1].resultSubOrder =  subOrder[0].Rule_Customer_Update.subOrder;
+
+           ruleSet.ruleList[2].ruleId = subOrder[0].Rule_BillingAccount_Create.name;
+           ruleSet.ruleList[2].matchScript  = subOrder[0].Rule_BillingAccount_Create.matchScript;
+           ruleSet.ruleList[2].scope = subOrder[0].Rule_BillingAccount_Create.scope;
+           ruleSet.ruleList[2].resultSubOrder =  subOrder[0].Rule_BillingAccount_Create.subOrder;
+
+           ruleSet.ruleList[3].ruleId = subOrder[0].Rule_LOS_Create.name;
+           ruleSet.ruleList[3].matchScript  = subOrder[0].Rule_LOS_Create.matchScript;
+           ruleSet.ruleList[3].scope = subOrder[0].Rule_LOS_Create.scope;
+           ruleSet.ruleList[3].resultSubOrder =  subOrder[0].Rule_LOS_Create.subOrder;
+
+       }
+       return ruleSet;
+    } catch (e) {
+        return false;
+    }
+  ]]></script>
+</script>

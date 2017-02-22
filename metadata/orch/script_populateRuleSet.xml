@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<script name="orch.populateRuleSet">
+  <label>populateRuleSet</label>
+  <metaVersion>25</metaVersion>
+  <script><![CDATA[
+    var subOrderStr = Global.getResource('subOrderDecompositionRule.json');
+    var ruleSet = new DataStructure("orch:ruleSet");
+
+
+    try {
+        if (subOrderStr != null){
+           var subOrder = JSON.parse(subOrderStr);
+           var i;
+           var subOrderArr =  subOrder.Rules.length;
+           for (i = 0; i < subOrderArr; i++ ){
+               ruleSet.ruleList[i].ruleId = subOrder.Rules[i].name;
+               ruleSet.ruleList[i].matchScript  = subOrder.Rules[i].matchScript;
+               ruleSet.ruleList[i].scope = subOrder.Rules[i].scope;
+               ruleSet.ruleList[i].resultSubOrder =  subOrder.Rules[i].subOrder;
+           }
+        }
+        return ruleSet;
+    } catch (e) {
+        return false;
+    }
+  ]]></script>
+</script>

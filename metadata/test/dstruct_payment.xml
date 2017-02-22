@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataStructure name="test.payment">
+  <container>true</container>
+  <jsonMap type="jmap">
+    <exclude>1</exclude>
+  </jsonMap>
+  <label>payment</label>
+  <metaVersion>25</metaVersion>
+  <childList>
+    <child name="paymentProfileId" type="dstruct">
+      <datatype>true</datatype>
+      <element>dtype_com.conceptwave.system.String</element>
+      <label>paymentProfileId</label>
+    </child>
+    <child name="customerId" type="dstruct">
+      <datatype>true</datatype>
+      <element>dtype_com.conceptwave.system.String</element>
+      <label>customerId</label>
+    </child>
+    <child name="accountId" type="dstruct">
+      <datatype>true</datatype>
+      <element>dtype_com.conceptwave.system.String</element>
+      <label>accountId</label>
+    </child>
+    <child name="shippingId" type="dstruct">
+      <datatype>true</datatype>
+      <element>dtype_com.conceptwave.system.String</element>
+      <label>shippingId</label>
+    </child>
+    <child name="paymentMethod" type="dstruct">
+      <datatype>true</datatype>
+      <element>dtype_com.conceptwave.system.String</element>
+      <label>paymentMethod</label>
+    </child>
+    <child name="cardType" type="dstruct">
+      <datatype>true</datatype>
+      <element>dtype_com.conceptwave.system.String</element>
+      <label>cardType</label>
+    </child>
+    <child name="cardHolderName" type="dstruct">
+      <datatype>true</datatype>
+      <element>dtype_com.conceptwave.system.String</element>
+      <label>cardHolderName</label>
+    </child>
+    <child name="cardExpiryDate" type="dstruct">
+      <datatype>true</datatype>
+      <element>dtype_com.conceptwave.system.String</element>
+      <label>cardExpiryDate</label>
+    </child>
+    <child name="cardSecurityCode" type="dstruct">
+      <datatype>true</datatype>
+      <element>dtype_com.conceptwave.system.String</element>
+      <label>cardSecurityCode</label>
+    </child>
+    <child name="amount" type="dstruct">
+      <datatype>true</datatype>
+      <element>dtype_com.conceptwave.system.String</element>
+      <label>amount</label>
+    </child>
+  </childList>
+</dataStructure>

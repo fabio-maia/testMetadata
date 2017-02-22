@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataStructure name="test.billingAccount">
+  <container>true</container>
+  <jsonMap type="jmap">
+    <exclude>1</exclude>
+  </jsonMap>
+  <label>billingAccount</label>
+  <metaVersion>25</metaVersion>
+  <childList>
+    <child name="accountId" type="dstruct">
+      <datatype>true</datatype>
+      <element>dtype_com.conceptwave.system.String</element>
+      <label>accountId</label>
+    </child>
+    <child name="custId" type="dstruct">
+      <datatype>true</datatype>
+      <element>dtype_com.conceptwave.system.String</element>
+      <label>custId</label>
+    </child>
+    <child name="action" type="dstruct">
+      <datatype>true</datatype>
+      <element>dtype_com.conceptwave.system.String</element>
+      <label>action</label>
+    </child>
+    <child name="accountType" type="dstruct">
+      <datatype>true</datatype>
+      <element>dtype_com.conceptwave.system.String</element>
+      <label>accountType</label>
+    </child>
+    <child name="accountName" type="dstruct">
+      <datatype>true</datatype>
+      <element>dtype_com.conceptwave.system.String</element>
+      <label>accountName</label>
+    </child>
+    <child name="accountStatus" type="dstruct">
+      <datatype>true</datatype>
+      <element>dtype_com.conceptwave.system.String</element>
+      <label>accountStatus</label>
+    </child>
+  </childList>
+</dataStructure>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataStructure name="test.billingAccountList">
+  <container>true</container>
+  <jsonMap type="jmap">
+    <exclude>1</exclude>
+  </jsonMap>
+  <label>billingAccountList</label>
+  <metaVersion>25</metaVersion>
+  <childList>
+    <child name="billingAccount" type="dstruct">
+      <array>true</array>
+      <element>dstruct_test.billingAccount</element>
+      <label>billingAccount</label>
+      <maxInstance>-1</maxInstance>
+    </child>
+  </childList>
+</dataStructure>

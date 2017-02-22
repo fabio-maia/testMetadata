@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<header name="AVMMetadata">
+  <APIVersion>2</APIVersion>
+  <author>Unknown</author>
+  <availableList>
+    <available type="loc">
+      <locale>en</locale>
+      <rightToLeft>false</rightToLeft>
+    </available>
+  </availableList>
+  <created>Mon Nov 07 13:20:50 EST 2016</created>
+  <internalName>TMobile</internalName>
+  <internalSysVersion>16.0 ICP17-01</internalSysVersion>
+  <internalVersion>1</internalVersion>
+  <label>Dynamic Order Decomposition</label>
+  <locale type="loc">
+    <locale>en</locale>
+    <rightToLeft>false</rightToLeft>
+  </locale>
+  <metaVersion>25</metaVersion>
+  <metadataVersion>20160224</metadataVersion>
+  <templateList>
+    <template>billing</template>
+    <template>catalog</template>
+    <template>catalogClient</template>
+    <template>charging</template>
+    <template>customer</template>
+    <template>customer_information_management</template>
+    <template>cwf</template>
+    <template>cwl_charging</template>
+    <template>cwl_fullStack</template>
+    <template>cwl_om</template>
+    <template>cwl_on</template>
+    <template>data_order</template>
+    <template>ecm</template>
+    <template>ecmCS6import</template>
+    <template>ecmDT</template>
+    <template>ecmRT</template>
+    <template>ecmRTLib</template>
+    <template>ecmRTServ</template>
+    <template>om_api</template>
+    <template>on_api</template>
+    <template>order_analytics</template>
+    <template>order_negotiations</template>
+    <template>serviceOrchestrationFramework</template>
+    <template>service_registry</template>
+    <template>uws_controller</template>
+    <template>ECMSid</template>
+  </templateList>
+</header>

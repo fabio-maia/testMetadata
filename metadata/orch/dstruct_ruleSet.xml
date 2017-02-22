@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataStructure name="orch.ruleSet">
+  <container>true</container>
+  <jsonMap type="jmap">
+    <exclude>1</exclude>
+  </jsonMap>
+  <label>ruleSet</label>
+  <metaVersion>25</metaVersion>
+  <childList>
+    <child name="ruleList" type="dstruct">
+      <array>true</array>
+      <element>dstruct_orch.rule</element>
+      <label>ruleList</label>
+      <maxInstance>-1</maxInstance>
+    </child>
+  </childList>
+</dataStructure>

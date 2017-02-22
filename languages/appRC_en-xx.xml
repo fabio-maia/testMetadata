@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConceptWaveMetadata>
+  <string>
+    <id>VER_PARAM_ERR</id>
+    <text>Query parameters ({0}) not defined properly.</text>
+  </string>
+  <string>
+    <id>VER_NO_RESOURCE_FOUND</id>
+    <text>No changed or impacted resource found in the specified project ({0}).</text>
+  </string>
+  <string>
+    <id>VER_PROJ_NOT_EXIST</id>
+    <text>Project ({0}) not found in catalog.</text>
+  </string>  
+</ConceptWaveMetadata>
